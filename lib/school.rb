@@ -2,7 +2,7 @@ class School
    # school = School.new() #("Bayside High School")
     #school.roster
     
-    attr_accessor :name, :roster, :grade
+    attr_accessor :name, :roster
     
 
     def initialize(name)
@@ -11,7 +11,7 @@ class School
     end
 
     def add_student(name, grade)
-      @roster[grade] ||= []
+     # @roster[grade] ||= []
       @roster[grade] << name
     end
 end
