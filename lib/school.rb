@@ -3,6 +3,7 @@ class School
     #school.roster
     
     attr_accessor :name, :roster
+    attr_reader :grade
     
 
     def initialize(name)
