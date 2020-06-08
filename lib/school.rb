@@ -16,7 +16,7 @@ class School
         roster[grade] ||= []
         roster[grade] << name
       else 
-        rost
+        roster[grade] = [name]
     end
   
 
