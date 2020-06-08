@@ -20,6 +20,6 @@ class School
     end
     
     def sort
-      roster.sort_by
+      roster.each do
     end
 end
