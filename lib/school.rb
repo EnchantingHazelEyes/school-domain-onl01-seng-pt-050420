@@ -2,7 +2,7 @@ class School
    # school = School.new() #("Bayside High School")
     #school.roster
     
-    attr_accessor :name, :roster, :grade
+    attr_accessor :name, :roster
     
 
     def initialize(name)
@@ -15,7 +15,7 @@ class School
       roster[grade] << name
     end
     
- #  def grade(grade)
-  #    roster[grade]
-   # end
+    def grade(grade)
+      roster[grade]
+    end
 end
